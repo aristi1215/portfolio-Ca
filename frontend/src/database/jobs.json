@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Lead Full-Stack Developer",
+        "company": "Infera US",
+        "date": "2023-2024",
+        "description": "As the lead full-stack developer on this project, I worked with a talented team to restructure an existing mobile application for Infera US. Our primary goal was to eliminate bugs and establish a strong, maintainable architecture. My responsibilities included leading communication with the app owners, resolving tickets on both the frontend (React Native) and backend (PHP), and ensuring consistent progress throughout the development process."
+    },
+    {
+        "id": 2,
+        "title": "Frontend Web Developer and Scrum master",
+        "company": "Beach Point Med",
+        "date": "2023-2024",
+        "description": "As a software developer at Beach Point Med, I collaborated with a skilled team to build a reservation application tailored to customer needs, using modern technologies such as React for the frontend and Python with FastAPI for the backend. My main responsibilities included leading the frontend development, maintaining clear communication with product owners, organizing team meetings, and handling development tickets. We followed Scrum methodology, managing our workflow with Jira."
+    },
+    {
+        "id": 3,
+        "title": "Software Developer",
+        "company": "Dream Venture Studios",
+        "date": "2023-2024",
+        "description": "I worked as a full-time software developer at Dream Venture Studios, using low-code tools such as Bubble combined with JavaScript to build custom features. During this time, I contributed to several applications, including a job-seeking platform specialized for restaurants in the US, a training application for the Miami Police Department focused on teaching techniques and skills, and a delivery service application. My main responsibilities included completing development tickets, organizing and normalizing the relational database, and ensuring the creation of maintainable features."
+    }
+]

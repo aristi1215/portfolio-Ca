@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "title": "Typing Game",
+        "description": " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et assumenda ipsa dolorum natus fuga ullam doloremque eum impedit, minima blanditiis fugit ex. Atque aspernatur velit aperiam nisi quasi, enim mollitia!",
+        "technologies": ["tailwind", "another thing"]
+    }
+]

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@keyframes up-left {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  45% {
+    transform: rotate(-90deg);
+  }
+  65% {
+    transform: rotate(-90deg) translateY(-4rem) translateX(4rem);
+  }
+  100% {
+    transform: rotate(-90deg) translateY(0) translateX(0);
+  }
+}
+@keyframes up-right {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  45% {
+    transform: rotate(90deg);
+  }
+  65% {
+    transform: rotate(90deg) translateY(4rem) translateX(-4rem);
+  }
+  100% {
+    transform: rotate(90deg) translateY(0) translateX(0);
+  }
+}
+@keyframes border-gradient-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    background: linear-gradient(to right, #9845e8, #33d2ff, #dd5789)
+  }
+}
+
+@theme {
+  --font-inter: Inter, sans-serif;
+}
+
+@layer components {
+  .info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(12, 14, 35, 0.51);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+
+    border: 1px solid rgba(12, 14, 35, 0.29);
+  }
+  .animate-up-left {
+    animation: up-left 6s forwards 0s;
+  }
+  .animate-up-right {
+    animation: up-right 6s forwards 0s;
+  }
+  .gradient-border-rect {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+  .gradient-border-rect::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 3px; /* Grosor del borde */
+    border-radius: 1rem;
+    background: white; /* gradiente */
+    /* Fondo blanco debajo */
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0;
+    animation: border-gradient-reveal 4s forwards 0s;
+  }
+  .gradient-border-rect > * {
+    position: relative;
+    z-index: 2;
+  }
+}
