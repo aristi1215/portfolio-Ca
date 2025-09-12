@@ -1,8 +1,47 @@
 [
+
     {
         "id": 1,
+        "title": "Beach Point Reservations system",
+        "description": "A volleyball reservations system created using modern technologies, as React, Tailwind and Python for the backend, followed best practices and design patterns",
+        "technologies": [
+            "tailwind",
+            "React",
+            "Python"
+        ],
+        "colSpan": "md:col-span-2",
+        "link": "https://github.com/DoseiBrayin/BeachPointMED",
+        "img": "/images/beach-point.png",
+        "background": "md:bg-[url(../../public/images/beach-point.png)]"
+    },
+    {
+        "id": 2,
+        "title": "Langara groups app",
+        "description": "Cross-platform (iOS/Android) social media app using React Native and Supabase for Langara College, enabling student groups to connect through group discovery, real-time chat, and an integrated e-commerce feature.",
+        "technologies": [
+            "React Native",
+            "Tailwind",
+            "Supabase"
+        ],
+        "colSpan": "md:col-span-1",
+        "link": "https://github.com/aristi1215/langara-groups-app",
+        "img": "/images/langara.png",
+        "background": "md:bg-[url(../../public/images/langara.png)]"
+
+    },
+        {
+        "id": 3,
         "title": "Typing Game",
-        "description": " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et assumenda ipsa dolorum natus fuga ullam doloremque eum impedit, minima blanditiis fugit ex. Atque aspernatur velit aperiam nisi quasi, enim mollitia!",
-        "technologies": ["tailwind", "another thing"]
+        "description": "Built a browser-based typing game with JavaScript, HTML, and CSS, featuring infinite and lives modes, dynamic difficulty scaling with time, and a points system to improve typing speed and accuracy.",
+        "technologies": [
+            "CSS",
+            "HTML5",
+            "Javascript"
+        ],
+        "colSpan": "md:col-span-3",
+        "link": "https://0c906b19.proyecto-mecanografia.pages.dev",
+        "img": "/images/typing.png",
+        "background": "md:bg-[url(../../public/images/typing.png)]"
+
     }
 ]

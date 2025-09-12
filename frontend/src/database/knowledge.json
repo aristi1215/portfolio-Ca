@@ -2,31 +2,37 @@
   {
     "id": 1,
     "title": "Web Development",
-    "description": "Full-stack developer with strong software engineering skills.\n\nFrontend: HTML5, CSS, Tailwind CSS, React, Framer Motion, Redux, React TanStack Query.\nBackend: Node.js (Express), Python (FastAPI).\nDatabases: PostgreSQL, MySQL, MongoDB.\nDocker containerization.\nIntermediate knowledge: PHP, Java, C++, Bash."
+    "description": "Full-stack developer with strong software engineering skills.\n\nFrontend: HTML5, CSS, Tailwind CSS, React, Framer Motion, Redux, React TanStack Query.\nBackend: Node.js (Express), Python (FastAPI).\nDatabases: PostgreSQL, MySQL, MongoDB.\nDocker containerization.\nIntermediate knowledge: PHP, Java, C++, Bash.",
+    "img": "web-knowledge.png"
   },
   {
     "id": 2,
     "title": "Mobile Development",
-    "description": "Intermediate experience in mobile app development.\nPrimarily React Native and low-code platforms like Bubble.\nCurrently learning native technologies: Kotlin (Android), Swift (iOS)."
+    "description": "Intermediate experience in mobile app development.\nPrimarily React Native and low-code platforms like Bubble.\nCurrently learning native technologies: Kotlin (Android), Swift (iOS).",
+    "img": "mobile-knowledge.png"
   },
   {
     "id": 3,
     "title": "Cloud Knowledge",
-    "description": "Experience with cloud platforms: Cloudflare, AWS, Vercel.\nWorked with S3 buckets, EC2, ECS, and edge functions."
+    "description": "Experience with cloud platforms: Cloudflare, AWS, Vercel.\nWorked with S3 buckets, EC2, ECS, and edge functions.",
+    "img": "cloud-knowledge.png"
   },
   {
     "id": 4,
     "title": "Cybersecurity Knowledge",
-    "description": "Intermediate knowledge in cybersecurity:\nNetworking protocols and vulnerabilities, authentication, authorization, encryption (hashing), database and client-side security.\nPracticed attacks for learning: XSS, clickjacking, cookie theft, MITM, phishing simulations."
+    "description": "Intermediate knowledge in cybersecurity:\nNetworking protocols and vulnerabilities, authentication, authorization, encryption (hashing), database and client-side security.\nPracticed attacks for learning: XSS, clickjacking, cookie theft, MITM, phishing simulations.",
+    "img": "security-knowledge.png"
   },
   {
     "id": 5,
     "title": "Soft Skills",
-    "description": "Strong communication and presentation skills developed through philosophy and oratory.\nExperienced presenting to large audiences of hundreds.\nHigh stress tolerance and ability to meet tight deadlines, gained from working as a professional chef."
+    "description": "Strong communication and presentation skills developed through philosophy and oratory.\nExperienced presenting to large audiences of hundreds.\nHigh stress tolerance and ability to meet tight deadlines, gained from working as a professional chef.",
+    "img": "soft-knowledge.png"
   },
   {
     "id": 6,
     "title": "Languages",
-    "description": "Passionate about connecting with people.\nNative Spanish, bilingual English, proficient French, basic Portuguese."
+    "description": "Passionate about connecting with people.\nNative Spanish, bilingual English, proficient French, basic Portuguese.",
+    "img": "languages-knowledge.png"
   }
 ]

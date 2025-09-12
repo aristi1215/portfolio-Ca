@@ -3,25 +3,29 @@ export const ProjectCard = ({
   description,
   img,
   styles,
+  background,
+  link
 }: {
   title: string;
   description: string;
   img: string;
   styles?: string;
+  background: string;
+  link?: string
 }) => {
-  const bg = `md:bg-[url(../../public/images/${img})]`
   return (
-    <article className={`p-0 gap-3 info-card md:min-h-[20rem] md:min-w-full ${bg} md:relative md: md:bg-no-repeat md:bg-cover md:bg-center ${styles}`}>
-      <img className="md:w-full md:h-full md:opacity-60 md:hidden" src={`../../public/images/${img}`} alt="" />
-      <div className="hidden md:block absolute w-full h-full bg-black opacity-45"></div>
-      <div className="px-2 md:absolute md:bottom-0 md:left-0">
+    <article className={`p-0 gap-3 info-card md:min-h-[20rem] md:min-w-full ${background} md:relative md: md:bg-no-repeat md:bg-cover md:bg-center ${styles}`}>
+      <img className="md:w-full md:h-full md:opacity-60 md:hidden" src={img} alt="" />
+      <div className="hidden md:block absolute w-full h-full bg-black opacity-35 rounded-xl "></div>
+      <div className="px-2 md:absolute md:bottom-5 md:left-5">
         <h3 className="font-inter text-xl">{title}</h3>
         <p className="text-sm">{description}</p>
+        <p className="text-xs my-3 text-blue-500"><a target="blank" href={link}>{link}</a></p>
         <div className="flex gap-3">
           <svg
             width={30}
             height={30}
-            className="rounded-full"
+            className="rounded-full"  
             viewBox="0 0 128 128"
           >
             <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"></path>
