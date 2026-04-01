@@ -13,7 +13,7 @@ const sectionTitles = [
 ];
 
 export default function Main() {
-  // Array de hooks para cada título
+  // Hook array for each title| 
   const inViews = sectionTitles.map(() => useInView({ threshold: 0 }));
 
   return (

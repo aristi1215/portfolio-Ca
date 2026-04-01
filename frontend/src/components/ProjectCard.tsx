@@ -4,28 +4,45 @@ export const ProjectCard = ({
   img,
   styles,
   background,
-  link
+  link,
 }: {
   title: string;
   description: string;
   img: string;
   styles?: string;
   background: string;
-  link?: string
+  link?: string[];
 }) => {
   return (
-    <article className={`p-0 gap-3 info-card md:min-h-[20rem] md:min-w-full ${background} md:relative md: md:bg-no-repeat md:bg-cover md:bg-center ${styles}`}>
-      <img className="md:w-full md:h-full md:opacity-60 md:hidden" src={img} alt="" />
-      <div className="hidden md:block absolute w-full h-full bg-black opacity-35 rounded-xl "></div>
+    <article
+      className={`p-0 gap-3 info-card md:min-h-[20rem] md:min-w-full ${background} md:relative md: md:bg-no-repeat md:bg-cover md:bg-center ${styles}`}
+    >
+      <img
+        className="md:w-full md:h-full md:opacity-60 md:hidden"
+        src={img}
+        alt=""
+      />
+      <div className="hidden md:block absolute w-full h-full bg-black opacity-55 rounded-xl "></div>
       <div className="px-2 md:absolute md:bottom-5 md:left-5">
         <h3 className="font-inter text-xl">{title}</h3>
         <p className="text-sm">{description}</p>
-        <p className="text-xs my-3 text-blue-500"><a target="blank" href={link}>{link}</a></p>
+        {link && link.length > 0 && (
+          <p className="text-sm my-3 text-blue-700">
+            {link.map((link, index) => (
+              <>
+                <a key={index} target="blank" className="mb-3" href={link}>
+                  {link}
+                </a>
+                <br />
+              </>
+            ))}
+          </p>
+        )}
         <div className="flex gap-3">
           <svg
             width={30}
             height={30}
-            className="rounded-full"  
+            className="rounded-full"
             viewBox="0 0 128 128"
           >
             <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"></path>
