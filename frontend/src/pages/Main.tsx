@@ -184,7 +184,7 @@ export default function Main() {
           Get in contact to work with me
         </h2>
         <div className="flex gap-3">
-          <a href="https://www.linkedin.com/in/juan-aristizabal-637300254" >
+          <a href="https://www.linkedin.com/in/juan-pablo-aristizabal-pineda-637300254/" >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
