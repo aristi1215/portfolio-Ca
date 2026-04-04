@@ -1,23 +1,40 @@
 [
-     {
+    {
         "id": 1,
+        "title": "Portfolio A/B Testing Platform",
+        "description": "Developed a frontend website for evaluating landing pages with A/B testing.  Users can create multiple variants by modifying titles, colors, and CTA buttons. The system tracks views, clicks, and calculates CTR for each variant..",
+        "technologies": [
+            "React",
+            "TailwindCSS",
+            "TypeScript"
+        ],
+        "colSpan": "md:col-span-3",
+        "link": [
+            "https://ab-testing-project.pages.dev",
+            "https://github.com/aristi1215/ab_testing_project"
+        ],
+        "img": "/images/ab-test.png",
+        "background": "md:bg-[url('/images/ab-test.png')]"
+    },
+    {
+        "id": 2,
         "title": "AI QA Automation System",
         "description": "Developed a full-stack web application for automated testing of AI-generated responses. Implemented session and bug management, test case tracking, and analytics dashboards. Integrated Supabase backend with serverless functions and a React + Tailwind frontend, including real-time data updates and AI response generation using OpenAI APIs.",
         "technologies": [
             "React",
             "TailwindCSS",
-            "TypeScript",
-            "Supabase",
-            "Node.js",
-            "OpenAI API"
+            "TypeScript"
         ],
         "colSpan": "md:col-span-3",
-        "link": ["https://ai-qa-automation-system.pages.dev","https://github.com/aristi1215/AI-QA-automation-system"],
-        "img": "/images/typing.png",
+        "link": [
+            "https://ai-qa-automation-system.pages.dev",
+            "https://github.com/aristi1215/AI-QA-automation-system"
+        ],
+        "img": "/images/AI-testing.png",
         "background": "md:bg-[url('/images/AI-testing.png')]"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Beach Point Reservations system",
         "description": "A volleyball reservations system created using modern technologies, as React, Tailwind and Python for the backend, followed best practices and design patterns",
         "technologies": [
@@ -26,12 +43,14 @@
             "Python"
         ],
         "colSpan": "md:col-span-2",
-        "link": ["https://github.com/DoseiBrayin/BeachPointMED"],
+        "link": [
+            "https://github.com/DoseiBrayin/BeachPointMED"
+        ],
         "img": "/images/beach-point.png",
         "background": "md:bg-[url('/images/beach-point.png')]"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Langara groups app",
         "description": "Cross-platform (iOS/Android) social media app using React Native and Supabase for Langara College, enabling student groups to connect through group discovery, real-time chat, and an integrated e-commerce feature.",
         "technologies": [
@@ -40,7 +59,9 @@
             "Supabase"
         ],
         "colSpan": "md:col-span-1",
-        "link": ["https://github.com/aristi1215/langara-groups-app"],
+        "link": [
+            "https://github.com/aristi1215/langara-groups-app"
+        ],
         "img": "/images/langara.png",
         "background": "md:bg-[url('/images/langara.png')]"
     }
